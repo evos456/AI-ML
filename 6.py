@@ -69,4 +69,3 @@ def vertibi(obsq,a_df,b_df,pi,states,hidden_states):
 obsq=['pooping','pooping','pooping']
 print(HMM(obsq,b_df,a_df,pi,states,hidden_states))
 print(vertibi(obsq,b_df,a_df,pi,states,hidden_states))
- 
