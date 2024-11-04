@@ -1,7 +1,7 @@
 from google.colab import files
 uploaded=files.upload()
 import pandas as pd
-df=pd.read_csv("PlayTennis.csv")
+df=pd.read_csv("PlayTennis - PlayTennis.csv")
 print(df)
 def entropy(probs):
  import math
@@ -75,6 +75,7 @@ tree1={'Outlook':['Rain','Sunny'],'Temperature':['Mild','Hot'],'Humidity':['High
 df2=pd.DataFrame(tree1)
 df2['Predicted']=df2.apply(classify,axis=1, args=(tree,'No'))
 print(df2)
+
 
 Output:
 
